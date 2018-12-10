@@ -1,0 +1,7 @@
+n=int(input("Number of sides of the polygon "))
+x = ((n*(n-3))/2)
+print("The polygon has",int(x),"diagonals")
+a=int(input("Length of side 1 "))
+b=int(input("Length of side 2 "))
+z = (a**2+b**2)**(1/2)
+print("The third side of the right triangle is",int(z))
